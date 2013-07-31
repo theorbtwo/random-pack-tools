@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+rebuild
+ssh -t insel.local sudo scp theorb@lilith.local:/usr/src/minecraft-dev/random-pack/random-pack.zip /var/www/localhost/htdocs
+mv ~/.technic/theorbtwos-random-pack/saves ~/.technic/saves-temp
+rm -r ~/.technic/theorbtwos-random-pack || true
+mkdir -p ~/.technic/theorbtwos-random-pack
+mv ~/.technic/saves-temp ~/.technic/theorbtwos-random-pack/saves
+techniclauncher
