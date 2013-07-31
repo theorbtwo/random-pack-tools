@@ -16,10 +16,10 @@ set -e
 cp ../minecraftforge-universal-1.5.2-7.8.1.738.zip bin/modpack.jar
 
 # mods
-cp ../TConstruct_1.3.6.7.jar mods
+cp ../TConstruct_1.4.1.7.jar mods
 # requires tconstruct
 cp ../'KBI Tinkers Construct Recovery Addon 1.2.1.zip' mods
-cp ../Natura_2.1.1.jar mods
+cp ../Natura_2.1.3.jar mods
 cp ../ExtrabiomesXL-universal-1.5.2-3.13.4.jar mods
 
 # ChickenBones
@@ -56,7 +56,7 @@ cp ../denLib-1.5.2-3.0.14.jar       coremods
 cp ../PluginsforForestry-1.5.2-3.0.17.jar     mods
 
 cp ../NEIPlugins-1.0.9.3.jar         mods
-cp ../neiaddons-1.5.2-1.8.1.r27.jar  mods
+cp ../neiaddons-1.5.2-1.8.2.r31.jar  mods
 
 cp ../Chococraft_2.8.8.zip           mods
 #cat <<END > config/chocobo_config.txt
