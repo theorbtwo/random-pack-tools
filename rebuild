@@ -1,5 +1,6 @@
 ## TEMP: FOR NOW, MAKE SURE WE START FROM A CLEAN SLATE ##
 rm -r build
+rm -r server-build
 rm random-pack.zip
 
 mkdir build
@@ -16,10 +17,10 @@ set -e
 cp ../minecraftforge-universal-1.5.2-7.8.1.738.zip bin/modpack.jar
 
 # mods
-cp ../TConstruct_1.4.1.7.jar mods
+cp ../TConstruct_1.5.2_1.4.2.7.jar mods
 # requires tconstruct
 cp ../'KBI Tinkers Construct Recovery Addon 1.2.1.zip' mods
-cp ../Natura_2.1.4.jar mods
+cp ../Natura_1.5.1_2.1.4.jar mods
 cp ../ExtrabiomesXL-universal-1.5.2-3.13.4.jar mods
 
 # ChickenBones
@@ -51,14 +52,14 @@ END
 
 cp ../magicbees-2.1.1.jar           mods
 
-cp ../binnie-mods-1.7.0b.jar        mods
+cp ../binnie-mods-1.7.2.jar         mods
 cp ../denLib-1.5.2-3.0.14.jar       coremods
 cp ../PluginsforForestry-1.5.2-3.0.17.jar     mods
 
 cp ../NEIPlugins-1.0.9.3.jar         mods
 cp ../neiaddons-1.5.2-1.8.2.r31.jar  mods
 
-cp ../Chococraft_2.8.8.zip           mods
+cp ../Chococraft_2.8.9.zip           mods
 #cat <<END > config/chocobo_config.txt
 #spawnBiomes = all
 #END
@@ -68,10 +69,33 @@ cp ../mystcraft-uni-1.5.2-0.10.5.00.zip      mods
 cp ../Thaumcraft3.0.5h.zip                   mods
 cp ../Thaumic\ Tinkerer\ \[1.0.8\].zip       mods
 
-cp ../appeng-rv12-a-mc15x.zip                mods
+cp ../appeng-rv12-b-mc15x.zip                mods
 
 cp ../CoFHCore-1.5.2.5.jar                   coremods
 cp ../ThermalExpansion-2.4.6.0.jar           mods
 
 zip -r ../random-pack.zip .
+cd ..
+
+#### That's the client, now the server.
+
+mkdir server-build
+cd server-build
+
+mkdir jar-build
+cd jar-build
+
+unzip ../../minecraft_server.1.5.2.jar
+unzip -o ../../minecraftforge-universal-1.5.2-7.8.1.738.zip
+
+zip -r ../server-main.jar .
+cd ..
+rm -r jar-build
+
+cp -r ../build/mods .
+cp -r ../build/coremods .
+cp -r ../build/config .
+zip -r ../random-pack-server.zip .
+cd ..
+
 
