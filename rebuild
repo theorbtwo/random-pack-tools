@@ -1,7 +1,10 @@
 ## TEMP: FOR NOW, MAKE SURE WE START FROM A CLEAN SLATE ##
 rm -r build
 rm -r server-build
+rm -r nonplatform-build
 rm random-pack.zip
+
+set -e
 
 mkdir build
 cd build
@@ -11,21 +14,20 @@ cp -r ../config config
 mkdir coremods
 mkdir mods
 
-set -e
 
 # forge itself.
-cp ../minecraftforge-universal-1.5.2-7.8.1.738.zip bin/modpack.jar
+cp ../minecraftforge-universal-1.6.2-9.10.0.829.jar bin/modpack.jar
 
 # mods
-cp ../TConstruct_1.5.2_1.4.2.7.jar mods
+cp ../TConstruct_1.6.2_1.4.dev.28.1.jar mods
 # requires tconstruct
 cp ../'KBI Tinkers Construct Recovery Addon 1.2.1.zip' mods
-cp ../Natura_1.5.1_2.1.4.jar mods
-cp ../ExtrabiomesXL-universal-1.5.2-3.13.4.jar mods
+cp ../Natura_1.6.2_2.1.5.jar mods
+cp ../ExtrabiomesXL-universal-1.6.2-3.14.1.jar mods
 
 # ChickenBones
-cp ../'CodeChickenCore 0.8.7.3.jar' coremods
-cp ../'NotEnoughItems 1.5.2.28.jar' coremods
+cp ../'CodeChickenCore 0.9.0.3.jar' coremods
+cp ../'NotEnoughItems 1.6.1.2.jar' coremods
 #cat <<END > config/NEI.cfg
 #options {
 # cheatmode=2
@@ -33,17 +35,17 @@ cp ../'NotEnoughItems 1.5.2.28.jar' coremods
 #}
 #END
 
-cp ../'EnderStorage 1.4.2.16.jar'   mods
-cp ../'Translocator 1.1.0.4.jar'    mods
+cp ../'EnderStorage 1.4.3.3.jar'   mods
+cp ../'Translocator 1.1.0.7.jar'    mods
 
-cp ../mapwriter-2.0.5.zip           mods
+cp ../mapwriter-2.0.8.zip           mods
 
 
-cp ../ComputerCraft1.53.zip         mods
+cp ../ComputerCraft1.56.zip         mods
 cp ../OpenCCSensors-1.5.2.0.jar     mods
 
 # Forestry & friends
-cp ../forestry-A-2.2.8.4.jar        mods
+cp ../forestry-A-2.3.0.0.jar        mods
 mkdir -p config/forestry/
 cat <<END > config/forestry/common.conf
 tweaks.energystat.disabled=false
@@ -57,27 +59,50 @@ cp ../denLib-1.5.2-3.0.14.jar       coremods
 cp ../PluginsforForestry-1.5.2-3.0.17.jar     mods
 
 cp ../NEIPlugins-1.0.9.3.jar         mods
-cp ../neiaddons-1.5.2-1.8.2.r31.jar  mods
+cp ../neiaddons-1.6.2-1.9.0.r40.jar  mods
 
 cp ../Chococraft_2.8.9.zip           mods
 #cat <<END > config/chocobo_config.txt
 #spawnBiomes = all
 #END
 
-cp ../mystcraft-uni-1.5.2-0.10.5.00.zip      mods
+cp ../mystcraft-uni-1.6.2-0.10.6.00.zip      mods
 
 cp ../Thaumcraft3.0.5h.zip                   mods
 cp ../Thaumic\ Tinkerer\ \[1.0.8\].zip       mods
 
-cp ../appeng-rv12-b-mc15x.zip                mods
+cp ../appeng-rv12-b-mc162.zip                mods
 
 cp ../CoFHCore-1.5.2.5.jar                   coremods
 cp ../ThermalExpansion-2.4.6.0.jar           mods
 
+cp ../BILLUND1.0.zip mods
+
 zip -r ../random-pack.zip .
 cd ..
 
-#### That's the client, now the server.
+#### OK, client, non-platform version ####
+
+mkdir nonplatform-build
+cd nonplatform-build
+
+mkdir jar-build
+cd jar-build
+
+unzip ../../minecraft_client.1.6.2.jar
+unzip -o ../../minecraftforge-universal-1.6.2-9.10.0.829.jar
+
+zip -r ../client-main.jar .
+cd ..
+rm -r jar-build
+
+cp -r ../build/mods .
+cp -r ../build/coremods .
+cp -r ../build/config .
+zip -r ../random-pack-nonplatform.zip .
+cd ..
+
+#### That's the client, now the server. ####
 
 mkdir server-build
 cd server-build
@@ -86,7 +111,7 @@ mkdir jar-build
 cd jar-build
 
 unzip ../../minecraft_server.1.5.2.jar
-unzip -o ../../minecraftforge-universal-1.5.2-7.8.1.738.zip
+unzip -o ../../minecraftforge-universal-1.6.2-9.10.0.829.jar
 
 zip -r ../server-main.jar .
 cd ..

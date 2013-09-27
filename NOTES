@@ -20,76 +20,169 @@ WANTED:
 
 mods to check:
 Current as of 2013-08-12:
- PluginsForForestry:
-  https://www.dropbox.com/sh/qqgsswnyxh2mq9f/ikQ1Gl-YDM/PluginsforForestry
-  3.0.17
+Current as of 2013-08-17:
+ Universal Electricity:
+  http://universalelectricity.com/basiccomponents/downloads
+  Basic Components 1.0.0.5
+  Mekinisim{,Generators} 5.5.7.175
+Current as of 2013-08-25:
  OpenCCSensors:
   http://www.computercraft.info/forums2/index.php?/topic/5996-151152-cc-152153-openccsensors/
   1.5.2.0
- NEI Plugins:
-  https://bitbucket.org/mistaqur/nei_plugins/wiki/Home
-  1.0.9.3  
- ExtraBees / ExtraTrees:
-  http://extrabees.accudio.com/downloads.html
-  1.7.2
- Forestry:
-  http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads
-  2.2.8.4
+  **NO 1.6.2 VERSION**
+Current as of 2013-09-06:
+ Minimapsync
+  http://www.minecraftforum.net/topic/1730216-162minecraftforgereiszans-minimap-minimapsync-version-b031/
+  b0.3.0
+As of 2013-09-11:
+
+As of 2013-09-15:
+Current as of 2013-08-22:
+ OpenMods:
+  http://www.openperipheral.info/openperipheral/downloads
+  OpenPeripherial 0.2.0-beta [0.2.1-preview8]
  Magic Bees:
   http://forestry.sengir.net/forum/viewtopic.php?id=17
   2.1.1
+  **NO 1.6.2 VERSION**
  Thaumic Tinkerer:
   https://github.com/Vazkii/ThaumicTinkerer/wiki/Mod-Releases
   1.0.8
+  **NO 1.6.2 VERSION**
  Thaumcraft
   http://www.minecraftforum.net/topic/1585216-thaumcraft-305h-updated-172013/
   3.0.5h
+  **NO 1.6.2 VERSION**
  Chococraft
   http://www.minecraftforum.net/topic/1119809-152151forge-torojimas-chococraft-288-happiness-distilled-into-avian-form/
-  2.8.8
- Mapwriter
-  http://www.minecraftforum.net/topic/1570989-152-forge-mapwriter-an-open-source-mini-map/
-  1.5.2: 2.0.5
-  1.6  : 2.0.6
-  Now maintained for 1.6 only.
- Applied Energistics:
-  http://ae-mod.info/Downloads/
-  rv12.a
- ChickenBone's mods:
-  1.6.2 available!
-  http://www.minecraftforum.net/topic/909223-147152-smp-chickenbones-mods/
-  http://www.chickenbones.craftsaddle.org/Files/New_Versions/links.php
-  CodeChickenCore 0.8.7.3
-  EnderStorage 1.4.2.16
-  NotEnoughItems 1.5.2.28
-  Translocator 1.1.0.4
+  2.8.9
+  **NO 1.6.2 VERSION**
+ BILLUND:
+  http://www.computercraft.info/billund/
+  1.0
  ComputerCraft
   http://www.computercraft.info/
-  1.5.3 unmaintained
-  1.6.2 available
+  1.56
  Mystcraft:
   http://binarymage.com/
-  0.10.6.00 for 1.6.2
-  0.10.5.00 for 1.5.2
+  0.10.6.00
  ExtraBiomes XL:
-  https://googledrive.com/host/0B9BVWyKm6iSAdHJyQTh0SGVoRm8/Minecraft%201.5.2/
-  3.13.4
-  1.6 version available
+  http://www.extrabiomes.net/
+  3.14.1
  Tinker's Construct Recovery:
   http://www.minecraftforum.net/topic/1838396-15xforgetc-134-tinkers-construct-recoverycompatibility-addon-v121/
   1.2.1
- Forge:
-  http://files.minecraftforge.net/
-  7.8.1.738
-  1.6 version available
+  **NO 1.6 VERSION**
  Natura:
   http://www.minecraftforum.net/topic/1753754-162natura/
-  2.1.5
-  1.6 version available
- Tinker's Construct:
-  http://www.minecraftforum.net/topic/1659892-15xtinkers-construct/
-  1.4.2.7
-  1.6 version available
+  2.1.9
+ Thermal Expansion / CoFH Core:
+  http://thermalexpansion.wikispaces.com/Downloads
+  Thermal Expansion 2.4.6.0
+  CoFH Core 1.5.2.5
+  **NO 1.6 VERSION**
+ Mapwriter
+  http://www.minecraftforum.net/topic/1570989-152-forge-mapwriter-an-open-source-mini-map/
+  2.0.9
  NEI Addons:
   http://www.minecraftforum.net/topic/1803460-nei-addons-v181-with-forestry-2280-support/
-  1.8.2
+  1.9.0
+ Millinare
+  http://millenaire.org/
+  5.1.9
+ Applied Energistics:
+  http://ae-mod.info/Downloads/
+  rv13.b
+ ChickenBone's mods:
+  http://www.minecraftforum.net/topic/909223-147152-smp-chickenbones-mods/
+  http://www.chickenbones.craftsaddle.org/Files/New_Versions/links.php
+  ChickenChunks 1.3.3.2
+  CodeChickenCore 0.9.0.5
+  EnderStorage 1.4.3.3
+  NotEnoughItems 1.6.1.4
+  Translocator 1.1.0.12
+ ExtraBees / ExtraTrees:
+  http://extrabees.accudio.com/downloads.html
+  1.8-dev2
+ Familiars
+  http://www.minecraftforum.net/topic/931546-162sspsmplan-familiars-new-herobrine-notch-chuck-norris/
+  API 1.6.2c
+  Default 1.6.2a
+  Extended 1.6.2a
+  Herobrine 1.6.2a
+ Copious Dogs
+  http://www.9minecraft.net/copious-dogs-mod/
+  1.6.2
+ The Dalek Mod
+  http://www.minecraftforum.net/topic/1544398-162-forge-modloader-the-dalek-mod-updated-020913-forge/
+  ???
+  1.6.2
+ Buildcraft
+  http://www.mod-buildcraft.com/
+  4.0.2
+ Bibliocraft
+  http://www.bibliocraftmod.com/?page_id=48
+  1.4.1
+ Bibliowoods
+  http://www.bibliocraftmod.com/?page_id=50#bibliowoods
+  Forestry 1.2
+  ExtrabiomesXL 1.0
+  Natura 1.0
+ Twilight Forest
+  http://www.minecraftforum.net/topic/561673-162-the-twilight-forest-v1190-updated-to-minecraft-16/
+  1.19.3
+ Dartcraft
+  http://www.minecraftforum.net/topic/1686840-162-dartcraft-beta-0205/
+  0.2.05
+ EMasher's Mods
+  http://emashersmods.wikispaces.com/Downloads
+  EMasher Resource: 1.2.1.2
+  Engineer's Toolbox: 1.1.3.0
+As of 2013-09-16:
+ Steve's Carts 2:
+  http://stevescarts2.wikispaces.com/Download
+  alpha 132
+As of 2013-09-16:
+ PowerCrystal's mods, samrg474's edition
+  Not using
+   https://samrg474.ci.cloudbees.com/job/PCC/lastSuccessfulBuild/artifact/artifacts/
+    21
+   https://samrg474.ci.cloudbees.com/job/MFR/lastSuccessfulBuild/artifact/artifacts/
+    50
+As of 2013-09-18:
+ DynMap
+  http://minecraft.curseforge.com/mc-mods/dynmapforge/
+   A: v1.9-alpha-3 for Forge v9.10.0 (MC v1.6.2) for 1.6.2 Aug 29, 2013
+As of 2013-09-20:
+ Village Info
+  http://chunkbase.com/mods/village-info
+  1.6.2 -- july 19, 2013
+ Rei's Minimap
+  http://www.minecraftforum.net/topic/482147-162-jul08-reis-minimap-v34-01/
+  3.4_01
+ DenLib:
+  https://www.dropbox.com/sh/qqgsswnyxh2mq9f/6m9vj5lzEQ/denLib
+  3.1.23
+ PluginsForForestry:
+  https://www.dropbox.com/sh/qqgsswnyxh2mq9f/ikQ1Gl-YDM/PluginsforForestry
+  http://www.minecraftforum.net/topic/1253666-162152forge-denoflions-mods-threads-condensed/
+  3.1.19
+ Forge:
+   http://files.minecraftforge.net/
+    We normally want latest-1.6.2
+    9.10.1.871
+ Tinker's Construct:
+  http://www.minecraftforum.net/topic/1659892-15xtinkers-construct/
+  1.4.5.1
+ NEI Plugins:
+  https://bitbucket.org/mistaqur/nei_plugins/wiki/Home
+  1.1.0.0pre1
+ Forestry:
+  http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads
+  2.3.0.1
+ Reika's:
+  http://www.minecraftforum.net/topic/1969694-15216forgesmp-reikas-mods/
+  DragonAPI:
+   1.6v4
+  RotaryCraft:
+   1.6v4
