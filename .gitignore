@@ -3,3 +3,10 @@
 *.jar
 build
 solder
+*.log
+millenaire
+nonplatform-build
+pmcookie.txt
+unpacked
+server-build/
+random-pack-nonplatform-test/
