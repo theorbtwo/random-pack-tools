@@ -49,14 +49,64 @@ Current as of 2013-08-22:
   https://github.com/Vazkii/ThaumicTinkerer/wiki/Mod-Releases
   1.0.8
   **NO 1.6.2 VERSION**
- Thaumcraft
-  http://www.minecraftforum.net/topic/1585216-thaumcraft-305h-updated-172013/
-  3.0.5h
-  **NO 1.6.2 VERSION**
  Chococraft
   http://www.minecraftforum.net/topic/1119809-152151forge-torojimas-chococraft-288-happiness-distilled-into-avian-form/
   2.8.9
   **NO 1.6.2 VERSION**
+ Tinker's Construct Recovery:
+  http://www.minecraftforum.net/topic/1838396-15xforgetc-134-tinkers-construct-recoverycompatibility-addon-v121/
+  1.2.1
+  **NO 1.6 VERSION**
+ Thermal Expansion / CoFH Core:
+  http://thermalexpansion.wikispaces.com/Downloads
+  Thermal Expansion 2.4.6.0
+  CoFH Core 1.5.2.5
+  **NO 1.6 VERSION**
+ Mapwriter
+  http://www.minecraftforum.net/topic/1570989-152-forge-mapwriter-an-open-source-mini-map/
+  2.0.9
+As of 2013-09-16:
+ Steve's Carts 2:
+  http://stevescarts2.wikispaces.com/Download
+  alpha 132
+As of 2013-09-16:
+ PowerCrystal's mods, samrg474's edition
+  Not using
+   https://samrg474.ci.cloudbees.com/job/PCC/lastSuccessfulBuild/artifact/artifacts/
+    21
+   https://samrg474.ci.cloudbees.com/job/MFR/lastSuccessfulBuild/artifact/artifacts/
+    50
+As of 2013-09-20:
+ Rei's Minimap
+  http://www.minecraftforum.net/topic/482147-162-jul08-reis-minimap-v34-01/
+  3.4_01
+ DenLib:
+  https://www.dropbox.com/sh/qqgsswnyxh2mq9f/6m9vj5lzEQ/denLib
+  3.1.23
+ PluginsForForestry:
+  https://www.dropbox.com/sh/qqgsswnyxh2mq9f/ikQ1Gl-YDM/PluginsforForestry
+  http://www.minecraftforum.net/topic/1253666-162152forge-denoflions-mods-threads-condensed/
+  3.1.19
+ Forge:
+   http://files.minecraftforge.net/
+    We normally want latest-1.6.2
+    9.10.1.871
+ Tinker's Construct:
+  http://www.minecraftforum.net/topic/1659892-15xtinkers-construct/
+  1.4.5.1
+ NEI Plugins:
+  https://bitbucket.org/mistaqur/nei_plugins/wiki/Home
+  1.1.0.0pre1
+ Forestry:
+  http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads
+  2.3.0.1
+ Reika's:
+  http://www.minecraftforum.net/topic/1969694-15216forgesmp-reikas-mods/
+  DragonAPI:
+   1.6v4
+  RotaryCraft:
+   1.6v4
+2013-9-27:
  BILLUND:
   http://www.computercraft.info/billund/
   1.0
@@ -69,30 +119,28 @@ Current as of 2013-08-22:
  ExtraBiomes XL:
   http://www.extrabiomes.net/
   3.14.1
- Tinker's Construct Recovery:
-  http://www.minecraftforum.net/topic/1838396-15xforgetc-134-tinkers-construct-recoverycompatibility-addon-v121/
-  1.2.1
-  **NO 1.6 VERSION**
+ Millinare
+  http://millenaire.org/
+  5.1.10
+   Changelog for 5.1.10
+   http://www.minecraftforum.net/topic/227822-164-spmp-millenaire-npc-village-new-byzantines-5110-bug-fixes/page__st__39760#entry24516909
+ Thaumcraft
+  http://www.minecraftforum.net/topic/1585216-thaumcraft-305h-updated-172013/
+  3.0.5i
+  **NO 1.6.2 VERSION**
  Natura:
   http://www.minecraftforum.net/topic/1753754-162natura/
   2.1.9
- Thermal Expansion / CoFH Core:
-  http://thermalexpansion.wikispaces.com/Downloads
-  Thermal Expansion 2.4.6.0
-  CoFH Core 1.5.2.5
-  **NO 1.6 VERSION**
- Mapwriter
-  http://www.minecraftforum.net/topic/1570989-152-forge-mapwriter-an-open-source-mini-map/
-  2.0.9
  NEI Addons:
   http://www.minecraftforum.net/topic/1803460-nei-addons-v181-with-forestry-2280-support/
   1.9.0
- Millinare
-  http://millenaire.org/
-  5.1.9
  Applied Energistics:
   http://ae-mod.info/Downloads/
-  rv13.b
+  rv13.c
+   http://ae-mod.info/Change-Log/
+ Extra Cells:
+  http://www.minecraftforum.net/topic/1801643-147152162-ae-add-on-fluid-storage-m3gas-extracells-v-145-smp-ssp/
+  1.4.5
  ChickenBone's mods:
   http://www.minecraftforum.net/topic/909223-147152-smp-chickenbones-mods/
   http://www.chickenbones.craftsaddle.org/Files/New_Versions/links.php
@@ -131,58 +179,35 @@ Current as of 2013-08-22:
  Twilight Forest
   http://www.minecraftforum.net/topic/561673-162-the-twilight-forest-v1190-updated-to-minecraft-16/
   1.19.3
+  # 1.20.0 is out, but requires 1.6.4
+  Changelog: https://docs.google.com/document/pub?id=1oV1A3DI9ktzMc779NxebxVQX3GVglcbb6QDlxefYVB4
  Dartcraft
   http://www.minecraftforum.net/topic/1686840-162-dartcraft-beta-0205/
-  0.2.05
+  0.2.06
+  Changelog: http://pastebin.com/BZwUYV51
  EMasher's Mods
   http://emashersmods.wikispaces.com/Downloads
   EMasher Resource: 1.2.1.2
   Engineer's Toolbox: 1.1.3.0
-As of 2013-09-16:
- Steve's Carts 2:
-  http://stevescarts2.wikispaces.com/Download
-  alpha 132
-As of 2013-09-16:
- PowerCrystal's mods, samrg474's edition
-  Not using
-   https://samrg474.ci.cloudbees.com/job/PCC/lastSuccessfulBuild/artifact/artifacts/
-    21
-   https://samrg474.ci.cloudbees.com/job/MFR/lastSuccessfulBuild/artifact/artifacts/
-    50
-As of 2013-09-18:
+  Changelog: http://emashersmods.wikispaces.com/Changelogs
  DynMap
   http://minecraft.curseforge.com/mc-mods/dynmapforge/
-   A: v1.9-alpha-3 for Forge v9.10.0 (MC v1.6.2) for 1.6.2 Aug 29, 2013
-As of 2013-09-20:
+   R: v1.9 for Forge v9.10.0+ (MC 1.6.2/1.6.4) for 1.6.4 Sep 24, 2013
  Village Info
   http://chunkbase.com/mods/village-info
-  1.6.2 -- july 19, 2013
- Rei's Minimap
-  http://www.minecraftforum.net/topic/482147-162-jul08-reis-minimap-v34-01/
-  3.4_01
- DenLib:
-  https://www.dropbox.com/sh/qqgsswnyxh2mq9f/6m9vj5lzEQ/denLib
-  3.1.23
- PluginsForForestry:
-  https://www.dropbox.com/sh/qqgsswnyxh2mq9f/ikQ1Gl-YDM/PluginsforForestry
-  http://www.minecraftforum.net/topic/1253666-162152forge-denoflions-mods-threads-condensed/
-  3.1.19
- Forge:
-   http://files.minecraftforge.net/
-    We normally want latest-1.6.2
-    9.10.1.871
- Tinker's Construct:
-  http://www.minecraftforum.net/topic/1659892-15xtinkers-construct/
-  1.4.5.1
- NEI Plugins:
-  https://bitbucket.org/mistaqur/nei_plugins/wiki/Home
-  1.1.0.0pre1
- Forestry:
-  http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads
-  2.3.0.1
- Reika's:
-  http://www.minecraftforum.net/topic/1969694-15216forgesmp-reikas-mods/
-  DragonAPI:
-   1.6v4
-  RotaryCraft:
-   1.6v4
+  1.6.4 -- 2.0b-3 -- september 23, 2013
+As of 2013-09-30:
+ Additional Buildcraft Objects
+  http://www.siedler25.org/uploads/minecraft/AdditionalBuildcraftObjects/
+  http://www.minecraftforum.net/topic/682821-16xbc40x106-additional-buildcraft-objects/
+  1.0.6.174
+ WikiLink
+  http://catacombs.co/category/wikilink/releases/
+  2.1.024
+As of 2013-10-01:
+ Reika's
+  http://www.minecraftforum.net/topic/1969694-15216forgesmp-reikas-mods/page__st__3000
+  DragonAPI -- gamma v3b
+  DyeTrees 1.6 -- v4
+  RotaryCraft 1.6 -- v4
+  ExpandedRedstone 1.6 -- v4
