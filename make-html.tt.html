@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+<title></title>
+</head>
+
+<body>
+<h1>[% pack_name %] version [% pack_version %]</h1>
+
+<ul>
+  <li>Vanilla: [% vanilla %]</li>
+  <li>Forge: [% forge %]</li>
+  [%- FOR mod_key IN normalish_mods.keys.sort -%]
+    [%- SET m = normalish_mods.$mod_key -%]
+    [%- IF NOT m.version -%][%- NEXT -%][%- END -%]
+    <li>
+      <a href="[% m.homepage %]">[% mod_key %] version [% m.version %]</a><br />
+      [% m.desc | html %]<br />
+      [% m.upgrade_note %]
+    </li>
+  [%- END -%]
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,1304 @@
+{
+    1:{
+	pack_name:"craftycraft2",
+	pack_dir:"craftycraft2",
+	vanilla:"1.7.2",
+	forge:"10.12.1.1060",
+	time:"2014-05-04T10:36:34Z",
+	normalish_mods: {
+	    "bloodmagic":{
+		"version":"1.0.0d",
+		"desc":"blood magic: alchemical wizardry",
+		"homepage":"http://www.minecraftforum.net/topic/1899223-",
+		"filename_pattern":"live-mods/Blood Magic-v%s.jar",
+	    },
+	    "buildcraft":{
+                "version":"6.0.8",
+                "filename_pattern":"live-mods/buildcraft-%s.jar",
+                "homepage":"http://www.mod-buildcraft.com/",
+                "desc":"One of the Great Old Technology Mods, pipes, pipes, and more pipes.  Pipes for items, fluids, power...",
+            },
+	    "carpenters": {
+		"version": "3.1.4",
+		"homepage":"http://www.minecraftforum.net/topic/1790919-1516forge-carpenters-blocks-v198-slopes-stairs-and-more/",
+                "desc":"sloped bricks, stairs, and fences, with some attributes from other blocks",
+                "filename_pattern":"live-mods/Carpenter's Blocks v%s - MC 1.7+.zip",
+	    },
+	    "codechickencore":{
+	     	"filename_pattern":"live-mods/CodeChickenCore-1.7.2-%s-universal.jar",
+	     	"desc":"Core library for NEI",
+	     	"version":"1.0.0",
+	     	"homepage":"http://www.chickenbones.craftsaddle.org/Files/New_Versions/links.php",
+	    },
+	    "damageindicators":{
+                "update_url":"http://www.minecraftforum.net/topic/1536685-",
+                "look_down":"[_tag => 'a', href => qr!^http://adf.ly!]",
+                "update_munge":"s!DamageIndicators\\[1\\.6\\.X]v!!",
+                "homepage":"http://www.minecraftforum.net/topic/1536685-164162152forge-hit-splat-damage-indicators-v2913-rpg-ui-and-damage-amount-mod/",
+		"desc":"HIT SPLAT DAMAGE INDICATORS RPG UI AND DAMAGE AMOUNT MOD",
+		"filename_pattern":"live-mods/[1.7.2]DamageIndicatorsMod-%s.jar",
+		"version":"3.1.1",
+	    },
+	    "enderio":{
+	     	"version":"1.1.0_alpha.50",
+	     	"filename_pattern":"live-mods/enderio-%s.jar",
+                "desc":"single block liquid/energy pipes, spacetime-warping powers",
+                "homepage":"http://enderio.com/",
+	    },
+	    "extrautils":{
+	      	"version":"1.1.0-prerelease-1b",
+	      	"filename_pattern": "live-mods/extrautilities-%s.jar",
+                "desc":"A bit of this, a bit of that, a bit of t'other ... and a bit of the Deep Dark",
+                "homepage":"http://www.minecraftforum.net/topic/1776056-164forge-extra-utilities-v035/",
+	    },
+	    "forgemultipart":{
+		"homepage":"http://files.minecraftforge.net/ForgeMultipart/",
+		"desc":"Slice and dice and put more then one thing per block-space",
+		"version":"1.1.0.276",
+		"filename_pattern":"live-mods/ForgeMultipart-1.7.2-%s-universal.jar",
+	    },
+	    "inventorytweaks":{
+                "homepage":"http://inventory-tweaks.readthedocs.org/en/latest/",
+                "desc":"Middleclick to sort chests/inventory, etc",
+                "version":"1.57-116",
+                "filename_pattern":"live-mods/InventoryTweaks-%s.jar",
+            },
+	    "ironchests":{
+                "version":"6.0.14.719",
+	     	"filename_pattern":"live-mods/ironchest-1.7.2-%s-universal.jar",
+                "desc":"More expensive, more dense, chests",
+                "homepage":"http://www.minecraftforum.net/topic/981855-",
+	    },
+	    "jabba":{
+                "homepage":"http://www.mobiusstrip.eu/category/jabba/",
+                "desc":"Just Another Better Barrels Attempt",
+	    	"version":"1.1.3",
+	    	"filename_pattern":"live-mods/Jabba_%s_1.7.2.jar",
+	    },
+	    "minesweeper":{
+                "version":"1.4.6",
+		"filename_pattern":"live-mods/Minesweeper-Mod-%s.jar",
+                "desc":"Yo dawg, I hear you like sweeping mines, so I added minesweeper to your minecraft so you can sweep while you craft.",
+                "homepage":"http://www.minemaarten.com/wikis/minesweeper-mod-wiki/"
+            },
+	    "nei_addons":{
+	     	"version":"1.11.0.3",
+                "filename_pattern":"live-mods/neiaddons-mc172-%s.jar",
+	        desc:"(Better) NEI support for forestry, extra bees, applied energistics, ...",
+                homepage:"http://www.minecraftforum.net/topic/1803460-nei-addons-v193-added-forestry-worktable-support/"
+	    },
+	    "notenoughitems":{
+	     	"version":"1.0.1",
+                "filename_pattern":"live-mods/NotEnoughItems-1.7.2-%s-universal.jar",
+                "homepage":"http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/",
+                "desc":"item/recipie lister galore"
+	    },
+ 	    "tconstruct":{
+ 		"desc":"Melt your metals, make tools from parts",
+                "homepage":"http://www.minecraftforum.net/topic/1659892-",
+                "version":"1.6.0.a14",
+                "filename_pattern":"live-mods/TConstruct-1.7.2-%s.jar"
+ 	    },
+ 	    "mantle":{
+ 		"desc":"??? some sort of core library for tconstruct?",
+ 		"version":"0.2.8",
+ 		"homepage":"http://www.minecraftforum.net/topic/1659892-",
+ 		"filename_pattern":"live-mods/Mantle-1.7.2-%s.jar",
+ 	    },
+	    "mapwriter":{
+		"desc":"it's just this map, you know?",
+		"version":"2.1.1",
+		"homepage":"http://www.minecraftforum.net/topic/1570989-",
+		"filename_pattern":"live-mods/MapWriter-1.7.2-%s.jar",
+	    },
+ 	    "thaumcraft":{
+		 "version":"4.1.1.11",
+                 "filename_pattern":"live-mods/Thaumcraft-1.7.2-%s.jar",
+                 "desc":"magical mechinisims: nodes, golems, the thauminomicon, research",
+                 "homepage":"http://www.minecraftforum.net/topic/2011841-thaumcraft-404c-updated-10112013/",
+                 config:{
+                     "config/Thaumcraft.cfg":{
+                         "file":"
+general {
+  B:blue_magical_forest=true
+}
+"
+                     },
+                 },
+ 	    },
+	    "twilightforest":{
+	     	"homepage":"http://www.minecraftforum.net/topic/561673-",
+                "update_url":"http://twilightforest.wikispaces.com/Change+Log",
+                "look_down":"[_tag => 'h1', id => 'toc0']",
+                "update_munge":"s!Version !!; s! \(.*\)!!",
+                "version":"2.0.3",
+	     	"filename_pattern":"live-mods/twilightforest-1.7.2-%s.jar",
+                "desc":"A new world of adventure, exploration, and extra getting your ass kicked",
+            },
+	    "waila":{
+                "version":"1.5.2a",
+                "homepage":"http://www.mobiusstrip.eu/category/waila/",
+                "desc":"What Am I Looking At: Improvements to NEI's little description thingy",
+	     	"filename_pattern":"live-mods/Waila-%s_1.7.2.jar",
+	    },
+	},
+    },
+    2:{
+	"normalish_mods":{
+	    "openeye":{
+		"version":"0.2",
+		"homepage":"http://openeye.openmods.info/",
+		"desc":"community-based crash reporting and version checking",
+		"filename_pattern":"live-mods/OpenEye-%s-1.7.2.jar",
+	    },
+	    "deathchest":{
+		"homepage":"http://www.minecraftforum.net/topic/2484298-17xsspsmpforge-death-chest-climbin-in-yo-windows-snatching-yo-inventory-up/",
+		"desc":"DEATH CHEST - CLIMBIN' IN YO WINDOWS, SNATCHING YO INVENTORY UP",
+		"version":"1.0",
+		"filename_pattern":"live-mods/Death.Chest.jar",
+	    },
+	    "enhancedportals":{
+		"homepage":"http://www.minecraftforum.net/topic/2143651-172-enhancedportals-3/",
+		"desc":"Bvvvvmt",
+		"version":"3.0.0b6c",
+		"filename_pattern":"live-mods/EnhancedPortals-1.7.2-%s.jar",
+	    },
+	    "botania":{
+		"homepage":"http://forum.feed-the-beast.com/threads/botania-beta-an-innovative-natural-magic-mod-now-with-download.41662/",
+		"desc":"Hippie magic!",
+		"version":"beta-29",
+		"filename_pattern":"live-mods/Botania %s.jar",
+	    },
+	    "pneumaticcraft":{
+		"homepage":"http://www.minemaarten.com/wikis/pneumaticcraft-wiki/",
+		"desc":"I CAN'T HANDLE THE PRESSURE!",
+		"version":"1.1.7",
+		"filename_pattern":"live-mods/PneumaticCraft-%s.jar",
+	    },
+	    "forestry":{
+		"homepage":"http://forestry.sengir.net/wiki.new/doku.php",
+		"desc":"Bees!  Trees!  Butterflies! ... oh, and farms",
+		"version":"2.4.0.0-711",
+		"filename_pattern":"live-mods/forestry-%s.jar",
+	    },
+	},
+    },
+    3:{
+	"normalish_mods":{
+	    "thaumcraft":{
+		"config":{
+		    "config/Thaumcraft.cfg":{
+			"file":"
+####################
+# world_regeneration
+#===================
+# If a chunk is encountered that skipped TC worldgen, then the game will attempt to regenerate certain world features if they are set to true. CAUTION: Best used for worlds created before you added this mod, and only if you know what you are doing. Backups are advised.
+####################
+
+world_regeneration {
+    B:amber_ore=true
+    B:aura_nodes=true
+    B:cinnibar_ore=true
+    B:infused_stone=true
+
+    # This key is used to keep track of which chunk have been generated/regenerated. Changing it will cause the regeneration code to run again, so only change it if you want it to happen. Useful to regen only one world feature at a time.
+    S:regen_key=DEFAULT
+    B:structures=true
+    B:taint=true
+    B:trees=true
+}
+"
+		    }
+		}
+	    },
+	    "buildcraft":{
+		"version":"6.0.10",
+	    },
+	    "extrautils":{
+	      	"version":"1.1.0-prerelease-2",
+	    },
+	    "openeye":{
+		"version":"0.2",
+	    },
+	    "pneumaticcraft":{
+		"version":"1.1.8",
+	    },
+	    "thaumcraft":{
+		"version":"4.1.1.12"
+	    },
+	    "dynmap":{
+	     	"version":"1.9.4-forge-10.12.0",
+	     	"filename_pattern":"live-mods/Dynmap-%s.jar",
+	     	"homepage":"http://minecraft.curseforge.com/mc-mods/dynmapforge/files/",
+		"desc":"Web-based map o' doom",
+		"noclient":"1",
+	    },
+	    "roguelike":{
+                "desc":"Proceduraly generated dungeons, ala roguelike games",
+                "homepage":"http://dungeons.homelinux.org/",
+                "filename_pattern":"live-mods/roguelike-1.7.2-%s.jar",
+                "version":"1.2.9",
+	    },
+	    "ae2":{
+		"desc":"Applied Energistics 2",
+		"homepage":"http://ae2.ae-mod.info/",
+		"filename_pattern":"live-mods/appliedenergistics2-%s.jar",
+		"version":"rv0-alpha-113",
+	    }
+	}
+    },
+    4:{
+	"normalish_mods":{
+	    "ae2":{version:"rv0-alpha-115"},
+	    "bloodmagic":{version:"1.0.1d"},
+	    "botania":{version:"beta-30"},
+	    "buildcraft":{version:"6.0.12"},
+	    "enhancedportals":{homepage:"http://shadeddimensions.co.uk/enhancedportals-3/downloads/"},
+	    "extrautils":{"version":"1.1.0-prerelease-3"},
+	    "forestry":{
+		"version":"2.4.1.22",
+		"filename_pattern":"live-mods/forestry_1.7.2-%s.jar",
+		"homepage":"http://jenkins.ic2.player.to/job/Forestry/"
+	    },
+	    "forgemultipart":{"version":"1.1.0.280"},
+	    "mechworks":{
+		"homepage":"http://www.minecraftforum.net/topic/2566444-164tinkers-mechworks/",
+		"desc":"Drawbridges!  Semi-wireless redstone!  Like that-there!",
+		"version":"0.2.7",
+		"filename_pattern":"live-mods/TMechworks-1.7.2-%s.jar",
+	    },
+	    "natura":{
+		"homepage":"http://www.minecraftforum.net/topic/2605688-172natura/",
+		"desc":"There's just a little bit more to the world, without making it busy.",
+		"version":"2.2.0a3",
+		"filename_pattern":"live-mods/natura-1.7.2-%s.jar",
+	    },
+	    "gendustry":{
+		"desc":"Genetic Industry, new ways of fucking with bees... and trees, and butterflies!",
+		"homepage":"http://bdew.net/gendustry/",
+		"version":"1.2.0.13",
+		"filename_pattern":"live-mods/gendustry-mc172-%s.jar",
+	    },
+	    "bdlib":{
+		"desc":"Library for gendustry",
+		"homepage":"http://jenkins.bdew.net/view/MC%201.7.2/job/bdlib-172/",
+		"version":"1.3.0.9",
+		"filename_pattern":"live-mods/bdlib-mc172-%s.jar",
+	    },
+	    "pneumaticcraft":{
+		"version":"1.1.9"
+	    },
+	    "openeye":{"version":"0.4"},
+	}
+    },
+    "5":{
+	normalish_mods: {
+	    "archimedes":{
+		"desc":"Boats, ships, airships, in a very minecrafty way",
+		"homepage":"http://www.minecraftforum.net/topic/1857899-172-164forge-archimedes-ships-v15-advanced-ship-creation/",
+		"version":"1.5.2",
+		"filename_pattern":"live-mods/ArchimedesShips-%s.jar",
+	    }
+	}
+    },
+    "6":{
+	forge:"10.12.1.1082",
+	normalish_mods: {
+	    "mystcraft":{
+		"desc":"Write descriptive books, link to them, experence them",
+		"homepage":"http://binarymage.com/",
+		"version":"0.10.14.00",
+		"filename_pattern":"live-mods/mystcraft-1.7.2-%s.jar",
+	    },
+	}
+    },
+    7:{
+	normalish_mods:{
+	    "botania":{
+		"version":"beta-33",
+	    },
+	    "extrautils":{"version":"1.1.0-prerelease-4"},
+	    "pneumaticcraft":{"version":"1.1.13"},
+	    "radixcore":{
+		"homepage":"http://minecraft.curseforge.com/mc-mods/77286-radixcore",
+		"desc":"library for minecraft comes alive",
+		"version":"1.1.1",
+		"filename_pattern":"live-mods/RadixCore-%s_MC-1.7.2.zip",
+	    },
+	    "minecraftcomesalive":{
+		"homepage":"http://minecraft.curseforge.com/mc-mods/59693-mca",
+		"desc":"Take Minecraft.  Add in a dash of Fable, and stir well.",
+		"version":"4.0.3",
+		"filename_pattern":"live-mods/MCA-%s_MC-1.7.2.zip",
+	    },
+	},
+    },
+    8:{
+	"normalish_mods":{
+	    "ae2":       {"version":"rv0-beta-11"},
+	    "enderio":   {"version":"1.1.0_alpha.71"},
+	    "archimedes":{notenoughmods_id: "ArchimedesShips"},
+	    "carpenters":{notenoughmods_id: "carpentersblocks"},
+	    "enhancedportals":{notenoughmods_id: "EnhancedPortals3"},
+	    "extrautils":{
+		notenoughmods_id: "ExtraUtilities",
+		"version":"1.1.0-prerelease-6"
+	    },
+	    "roguelike":{notenoughmods_id: "RoguelikeDungeons"},
+	    "bloodmagic":{version:"1.0.1e"},
+	    "botania":{version:"beta-37"},
+	    "forestry":{version:"2.4.1.24"},
+	    "forgemultipart":{version:"1.1.0.282"},
+	    "gendustry":{version:"1.2.0.14"},
+	    "nei_addons":{
+		notenoughmods_id: "NEIAddons",
+		version:"1.11.0.4"
+	    },
+	    "pneumaticcraft":{version: "1.1.14"},
+	    "thaumcraft":{version:"4.1.1.14"},
+	},
+    },
+    9:{
+	"normalish_mods":{
+	    "botania":{version:"beta-39"},
+	    "extrautils":{version:"1.1.0-rc1"},
+	    "minecraftcomesalive":{
+		version:"4.0.4",
+		"filename_pattern":"live-mods/MCA-%s MC-1.7.2.zip",
+	    },
+	    "voxelmap":{
+		"version":"1.0",
+		"filename_pattern":"live-mods/voxelmap-1.7.2-%s.jar",
+		homepage: "http://www.planetminecraft.com/mod/zans-minimap/",
+	    },
+	}
+    },
+    10:{
+	"normalish_mods":{
+	    "buildcraft":{version:"6.0.16"},
+	    "deathchest":{version:null},
+	    "dynmap":{version:"HEAD-forge-10.12.0"},
+	    //"enderio":{version:"1.1.0_alpha.89"},
+	    "extrautils":{
+		version:"1.1.0a",
+	    },
+	    "forestry":{
+		version:"2.4.1.25",
+	    },
+	    "gendustry":{
+		version:"1.2.0.14",
+	    },
+	    "tconstruct":{
+		notenoughmods_id:"tinkersconstruct",
+	    },
+	    "damageindicators":{
+		"version":"3.1.2",
+	    },
+	    "radixcore":{
+		"version":"1.2.0",
+		"filename_pattern":"live-mods/RadixCore-%s MC-1.7.2.zip",
+	    },
+	    "pneumaticcraft":{
+		"version":"1.1.15",
+	    },
+	    "archimedes":{
+		"version":"1.6.1",
+	    },
+	    "openeye":{"version":"0.5"},
+	    "enhancedportals":{
+		"version":"3.0.0b-final2",
+		"filename_pattern":"live-mods/EnhancedPortals_1.7.2-universal-%s.jar",
+	    },
+	    "aobd":{
+		"version":"2.0.2",
+		"homepage":"http://www.minecraftforum.net/topic/2319703-172-aobd-2-process-all-the-ores-v202/",
+		"filename_pattern":"live-mods/AOBD-%s.jar",
+	    },
+	    "bibliocraft":{
+		"homepage":"http://www.bibliocraftmod.com/?page_id=48#MC17",
+		"version":"1.7.1",
+		"filename_pattern":"live-mods/BiblioCraft[%s][MC1.7.2].jar",
+	    },
+	    "forbiddenmagic":{
+		"homepage":"http://www.minecraftforum.net/topic/2305054-164172tc4-addon-forbidden-magic-v04b-prerelease/",
+		"version":"0.4b",
+		"filename_pattern":"live-mods/Forbidden Magic-1.7.2-%s.jar",
+	    },
+	    "voxelmap":{
+		nem_expected:"1.7.2-1.0"
+	    },
+	    "tconstruct":{
+		nem_expected:"1.6.0a14"
+	    },
+	    "inventorytweaks":{
+		nem_expected:"1.57",
+	    },
+	    "botania":{version:"r1.0-45"},
+	    "ae2":{
+		notenoughmods_id:"AppliedEnergistics2",
+		version:"rv0-beta-23",
+	    },
+	    "carpenters":{
+		notenoughmods_id: "carpenter'sblocks",
+		version:"3.1.5",
+	    },
+	},
+	forge:"10.12.1.1110",
+    },
+    11:{
+	"normalish_mods":{
+	    "mystcraft":{
+		"version":"0.10.15.00"
+	    },
+	    "ae2":{
+		"version":"rv0-beta-24"
+	    },
+	    "aobd":{
+		"notenoughmods_id":"AnotherOneBitestheDust",
+	    },
+	    "pneumaticcraft":{
+		"version":"1.2.0"
+	    },
+	    "botania":{
+		"version":"r1.0-47",
+	    },
+	},
+    },
+    12:{
+	"normalish_mods":{
+	    "botania":    {version:"r1.0-49"},
+	    "extrautils": {version:"1.1.0b"},
+	    "roguelike":  {version:"1.3.3"},
+	},
+    },
+    13:{
+//	"forge":"10.12.2.1124",
+	normalish_mods:{
+	    "botania":{version:"r1.0-52"},
+	    "shetiphiancore":{
+		version:"2",
+		desc:"library mod for endertanks",
+		filename_pattern:"live-mods/ShetiPhianCore-v%s.jar",
+	    },
+	    "endertanks":{
+		"homepage":"http://www.minecraftforum.net/topic/1666295-172smpforge-endertanks-ecu-approved/",
+		"desc":"interdimensional (and just remote) liquid movement",
+		"version":15,
+		"filename_pattern":"live-mods/EnderTanks-rev%s.jar",
+	    },
+	}
+    },
+    14:{
+	normalish_mods:{
+	    "ae2":{
+		version:"rv0-beta-32"
+	    },
+	    "damageindicators":{
+		noserver: 1,
+	    },
+	    "forbiddenmagic":{
+		desc:"Linking thaumcraft and other magic mods, and exploring some sinning",
+	    },
+	    "shetiphiancore":{
+		homepage:"http://minecraft.curseforge.com/mc-mods/71738-shetiphiancore",
+	    },
+	    "bibliocraft":{
+		desc:"Furniture.  Also, book duplicating, fancy book writing... but mostly furniture",
+	    },
+	    "voxelmap":{
+		desc:"Nice and fancy minimap",
+	    },
+	    "aobd":{
+		desc:"Another One Bites the Dust, making ore-processing a little more universal",
+	    }
+	}
+    },
+    16:{
+	normalish_mods:{
+	    "ae2":{
+		version:"rv0-beta-35",
+	    },
+	    "bloodmagic":{
+		version:"1.0.1g",
+	    },
+	    "enderio":{
+		version:"2.0_beta.115",
+	    },
+	    "forgemultipart":{
+		version:"1.1.0.285",
+	    },
+	    "jabba":{
+		version:"1.1.4",
+		filename_pattern:"live-mods/Jabba-%s.jar",
+	    },
+	    "openeye":{
+		version:"0.6",
+	    },
+	    "pneumaticcraft":{
+		version:"1.2.1"
+	    },
+	    "twilightforest":{
+		version:"2.1.1"
+	    },
+	    "botania":{
+		version:"r1.1-62"
+	    },
+	},
+    },
+    17:{
+	normalish_mods:{
+	    "mobiuscore":{
+		"desc":"Library mod for opis",
+		"homepage":"http://minecraft.curseforge.com/mc-mods/76734-mobiuscore",
+		"version":"1.2.2",
+		"filename_pattern":"live-mods/MobiusCore-%s_1.7.2.jar",
+	    },
+	    "opis":{
+		"desc":"Server profiling",
+		"homepage":"http://minecraft.curseforge.com/mc-mods/73832-opis",
+		"version":"1.2.2a",
+		"filename_pattern":"live-mods/Opis-%s_1.7.2.jar",
+	    },
+	    "mapwriter":{
+		// opis replaces/conflicts with this.
+		"version":null
+	    },
+	},
+    },
+    18:{
+	normalish_mods:{
+	    "eternalislands":{
+            // Filled with way too many aggressive mobs!
+		"desc":"",
+		"homepage":"http://www.minecraftforum.net/topic/1518578-17xforgesmpeternal-isles-multiple-new-dimensions-85-mobsbosses-unique-ai-300-sounds-it-has-arrived/",
+		"version":null,
+		"filename_pattern":"live-mods/eternisles-1.7.2 - %s.jar",
+	    },
+            "doggytalents":{
+		"desc":"",
+		"homepage":"http://www.minecraftforum.net/topic/1650096-17sspsmp-doggy-talents-a-day-dogs-would-not-drown-now-updated-new-ai-beds-and-more/",
+		#"version":"1.6.0a",
+		"version":null,
+		"filename_pattern":"live-mods/[1.7] Doggy Talents - v%s.zip",
+            },
+	},
+    },
+    19:{
+	"forge":"10.12.2.1147",
+	"normalish_mods":{
+	    //"notenoughitems":{"version":"1.0.2"},
+	    //"codechickencore":{"version":"1.0.1"},
+	    "gendustry":     {"version":"1.2.0.18"},
+	    "forgemultipart":{"version":"1.1.0.289"},
+	    "forestry":      {"version":"2.4.1.27"},
+	    "forbiddenmagic":{"version":"0.41b"},
+	    "enderio":       {"version":"2.0_beta.123"},
+	    "carpenters":    {"version":"3.2.4"},
+	    "botania":       {"version":"r1.1-68"},
+	    "bdlib":         {"version":"1.3.0.10"},
+	    "archimedes":    {"version":"1.7"},
+	    // No longer supports 1.7.2, wants 1.7.10.
+	    //"ae2":           {"version":"rv0.stable-8"},
+	},
+    },
+    20: {
+	"normalish_mods":{
+	    "thaumictinkerer":{
+		"version":"2.4-147",
+		"homepage":"http://minecraft.curseforge.com/mc-mods/75598-thaumic-tinkerer",
+		"filename_pattern":"live-mods/ThaumicTinkerer-2.4-147.jar",
+		"desc":"Extra thaumcraft bits and bobs."
+	    },
+	}
+    },
+    21:{
+	"normalish_mods":{
+	    "botania":        {"version":"r1.1-74"},
+	    "codechickencore":{"version":"1.0.1.7"},
+	    "notenoughitems": {"version":"1.0.2.14"},
+	    "forgemultipart": {"version":"1.1.0.294"},
+	    "ae2":            {"version":"rv0-stable-7"},
+	}
+    },
+    22:{
+	"normalish_mods":{
+	    "ae2":{version:"rv0-stable-9"},
+	    "botania":{version:"r1.1-77"},
+	    // Dropbox overloaded.  Try again later.
+	    //"twilightforest":{version:"2.2.0"},
+	    "enderstorage":{
+		//"version":"1.4.4.8",
+		"version":null,
+		"filename_pattern":"live-mods/EnderStorage-1.7.2-%s-universal.jar",
+		"homepage":"http://chickenbones.net/Pages/links.html",
+		"desc":"Better ender chests, and suchlikes",
+	    },
+	    "neiforestry":{
+		"version":"1.1",
+		"filename_pattern":"live-mods/NEIForestry-%s.jar",
+		"homepage":"about:blank",
+		"desc":"(Some) Forestry support for NEI.",
+	    },
+	    "wailaharvestability":{
+		"version":"1.0.4",
+		"filename_pattern":"live-mods/WailaHarvestability-mc1.7.x-%s.jar",
+		"homepage":"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1295067-waila-harvestability-how-can-i-harvest-what-im",
+		"desc":"Lets you know if you can harvest the block you are looking at with your current tool."
+	    },
+	    "codechickencore":{
+		"version":"1.0.2.10",
+	    },
+	    "notenoughitems":{
+		"version":"1.0.2.14",
+	    },
+	},
+    },
+    23:{
+	"normalish_mods":{
+	    "witchery":{
+		"version":"0.19.2",
+		"filename_pattern":"live-mods/witchery-1.7.2-%s.jar",
+	    },
+	},
+    },
+    24:{
+	"normalish_mods":{
+	    // Witchery: 1.7.2 and 1.7.10 builds available.
+	    "witchery":{
+		"version":"0.20.0",
+		"homepage":"https://sites.google.com/site/witcherymod/",
+	    },
+	    // Twilight Forest: One buid supports 1.7.2 and 1.7.10.
+	    "twilightforest":{"version":"2.2.3"},
+	    // Bibliocraft: 1.7.2 and 1.7.10 builds available.
+	    "bibliocraft": {
+		"version":"1.7.5",
+		"filename_pattern":"live-mods/BiblioCraft[v%s][MC1.7.2].jar",
+	    },
+	    // bdlib: 1.7.2 and 1.7.10 builds available.
+	    "bdlib":{"version":"1.3.0.11"},
+	    // bloodmagic: 1.7.2 and 1.7.10 builds available.
+	    "bloodmagic":{
+		"version":"1.1.0",
+		"filename_pattern":"live-mods/Blood Magic-v%s(1.7.2).jar",
+	    },
+	    // botania: One build supports 1.7.2 and 1.7.10 ?
+	    "botania":{"version":"r1.1-84"},
+	    // dynmap: many builds for many versions
+	    "dynmap":{
+		"version":"2.0.0-alpha-1",
+		"filename_pattern":"live-mods/Dynmap-%s-forge-10.12.1.jar",
+	    },
+	    
+	    // AE2: 1.7.{2,10} versions of rv0 (stable), 1.7.10 only of rv1 (alpha, does autocrafting).
+	    "ae2":{"upgrade_note":"rv1 is 1.7.10 only"},
+	    "pneumaticcraft":{"upgrade_note":"1.2.2 is 1.7.10 only"},
+	},
+    },
+    25:{
+	normalish_mods:{
+	    "botania":{
+		"version":"r1.1-90",
+		"upgrade_note":"1.7.2/1.7.10 in one build",
+	    },
+	    // inventorytweaks: 1.7.2/1.7.10 in one build.
+	    "inventorytweaks":{"version":"1.58-147"},
+	    "witchery":{
+		"version":"0.20.2",
+		"desc":"Witchcraft: magic without the flashyness",
+	    },
+	    //"aobd":{
+	    //	"upgrade_note":"1.7.10 unified build",
+	    //	"version":"2.2.1",
+	    //  },
+	    "archimedes":{"upgrade_note":"1.7.1 is for 1.7.10"},
+	    "bdlib":{"upgrade_note":"separate 1.7.10 build available"},
+	    "bibliocraft":{upgrade_note:"separate 1.7.10 build available"},
+	    "bloodmagic":{upgrade_note:"separate 1.7.10 build available"},
+	    "buildcraft":{upgrade_note:"6.0.17 is for 1.7.10"},
+	    "carpenters":{upgrade_note:"separate 1.7.10 build available"},
+	    "codechickencore":{upgrade_note:"seperate 1.7.10 builds available"},
+	    "damageindicators":{upgrade_note:"3.2.10 is for 1.7.10"},
+	    "dynmap":{upgrade_note:"separate 1.7.10 build available"},
+	    "enderio":{upgrade_note:"2.0_beta.156 is for 1.7.10"},
+	    "endertanks":{upgrade_note:"No 1.7.2 version?"},
+	    "enhancedportals":{upgrade_note:"Support in github, not yet released?"},
+	    "extrautils":{upgrade_note:"1.1.0c has 1.7.10 support.  Unclear if/when 1.7.2 support was dropped."},
+	    "forbiddenmagic":{upgrade_note:"No (explicit) 1.7.10 support"},
+	    "forestry":{upgrade_note:"Build >=29 is 1.7.10"},
+	    "forgemultipart":{upgrade_note:"Newer builds are 1.7.10"},
+	}
+    },
+    26:{
+        normalish_mods:{
+            "botania":{
+                "version":"r1.1-98",
+            },
+            "carpenters":{
+                "version":"3.2.5",
+                "filename_pattern":"live-mods/Carpenter's Blocks v%s - MC 1.7.2.zip",
+            },
+            "inventorytweaks":{
+                "nem_expected":"1.58",
+            },
+            // Requires forge Forge@[10.13.0.1179,) -- 1.7.10.
+            //"pneumaticcraft":{
+            //    "version":"1.2.5",
+            //},
+            "thaumictinkerer":{
+		"version":"2.4-152",
+            },
+            "witchery":{
+                "version":"0.20.4",
+                "upgrade_note":"parallel builds"
+            },
+            "waila":{
+                "upgrade_note":"1.5.3 for 1.7.10",
+            },
+	    "wailaharvestability":{
+                "upgrade_note":"works on both 1.7.2 and 1.7.10",
+            },
+            "progressiveautomation":{
+                "version":"1.3.0",
+                "filename_pattern":"live-mods/ProgressiveAutomation-1.7.2-%s.jar",
+                "homepage":"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076388-progressive-automation-upgradeable-machines",
+                "desc":"This mod provides low tech automation tools for common tasks. The tools will be upgradable as the player progresses.",
+                "upgrade_note":">=1.3.0 is 1.7.10 only",
+            },
+            "hydraulicraft":{
+                "version":"2.0.3-8",
+                "filename_pattern":"live-mods/HydCraft-1.7.2-%s.jar",
+                "homepage":"http://hydraulicraft.eu/",
+                "upgrade_note":"Beta version for 1.7.10 available",
+                "desc":"Er, yet another technology mod?",
+            }
+        },
+    },
+
+    // === The 1.7.10 line ===
+    27: {
+        vanilla:"1.7.10",
+        forge:"10.13.0.1200",
+        normalish_mods:{
+            waila:{
+                "version":"1.5.3",
+                filename_pattern:"live-mods/Waila-%s_1.7.10.jar",
+                upgrade_note:"1.7.10!",
+            },
+            // no thaumcraft for 1.7.10 yet
+            thaumictinkerer:{version:null},
+            forbiddenmagic: {version:null},
+            thaumcraft:     {version:null},
+            tconstruct:     {
+                version:"1.6.0d38",
+                nem_expected:null,
+                filename_pattern:"live-mods/TConstruct_mc1.7.10_%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            shetiphiancore:{version:null},
+            endertanks:{version:null},
+            roguelike:{
+                version:"1.3.4",
+                filename_pattern:"live-mods/roguelike-1.7.10-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            progressiveautomation:{
+                version:"1.4.2",
+                filename_pattern:"live-mods/ProgressiveAutomation-1.7.10-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            pneumaticcraft:{
+                version:"1.2.5",
+                upgrade_note:"1.7.10!",
+            },
+            nei_addons:{
+                "version":"1.12.0.4",
+                filename_pattern:"live-mods/neiaddons-mc1710-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            opis:{
+                version:null,
+            },
+            jabba:{
+                version:"1.1.4",
+                upgrade_note:"1.7.10!",
+                filename_pattern:"live-mods/Jabba-%s_1.7.10.jar",
+            },
+            rpgadv:{
+                version:"1.0.0",
+                desc:"Follow me if you want to live.  Or to get where you are going.  Signs that point to places.",
+                homepage:"http://www.mobiusstrip.eu/category/rpgadv-mod/",
+                filename_pattern:"live-mods/RPGAdvMod-%s_1.7.10.jar",
+                upgrade_note:"1.7.10!",
+            },
+            notenoughitems:{
+                version:"1.0.3.48",
+                "nem_expected":"1.0.2.15",
+                filename_pattern:"live-mods/NotEnoughItems-1.7.10-%s-universal.jar",
+                upgrade_note:"1.7.10!",
+            },
+            natura:{
+                version:"2.2.0-b1",
+                filename_pattern:"live-mods/natura-1.7.10-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            mystcraft:{
+                version:"0.10.15.05",
+                filename_pattern:"live-mods/mystcraft-1.7.10-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            minecraftcomesalive:{version:null},
+            radixcore:{version:null},
+            mantle:{
+                version:"0.3.0",
+                filename_pattern:"live-mods/Mantle_mc1.7.10_%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            //minesweeper:{version:null},
+            ironchests:{
+                version:"6.0.46.732",
+                filename_pattern:"live-mods/ironchest-1.7.10-%s-universal.jar",
+                upgrade_note:"1.7.10!",
+            },
+            hydraulicraft:{
+                version:"2.0-43",
+                filename_pattern:"live-mods/HydCraft-1.7.10-%s.jar",
+            },
+            //hydraulicraft:{
+            //    version:null,
+            //},
+            gendustry:{
+                version:"1.3.0.9",
+                nem_version:"1.3.0.7",
+                filename_pattern:"live-mods/gendustry-mc1710-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            forgemultipart:{
+                version:"1.1.0.300",
+                filename_pattern:"live-mods/ForgeMultipart-1.7.10-%s-universal.jar",
+                upgrade_note:"1.7.10!",
+            },
+            forestry:{
+                version:"2.4.2.45",
+                filename_pattern:"live-mods/forestry_1.7.10-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            extrautils:{
+                version:"1.1.0g",
+                upgrade_note:"1.7.10!",
+            },
+            enderio:{
+                version:"2.0_beta.169",
+                filename_pattern:"live-mods/enderio-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            damageindicators:{
+                version:"3.2.0",
+                filename_pattern:"live-mods/[1.7.10]DamageIndicatorsMod-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            codechickencore:{
+                version:"1.0.3.23",
+                filename_pattern:"live-mods/CodeChickenCore-1.7.10-%s-universal.jar",
+                upgrade_note:"1.7.10!",
+            },
+            buildcraft:{
+                version:"6.0.17",
+                upgrade_note:"1.7.10!",
+            },
+            bdlib:{
+                version:"1.4.1.7",
+                filename_pattern:"live-mods/bdlib-mc1710-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            archimedes:{
+                version:"1.7.1",
+                upgrade_note:"1.7.10!",
+            },
+            aobd:{
+                version:"2.2.3",
+                upgrade_note:"1.7.10!",
+            },
+            ae2:{
+                version:"rv1-alpha-47",
+                upgrade_note:"1.7.10!",
+            },
+
+            // OK, that's the obvious stuff...
+            mobiuscore:{
+                version:null,
+            },
+            "mechworks":{
+                version:"0.2.8",
+                filename_pattern:"live-mods/TMechworks_mc1.7.10_0.2.8.jar",
+                upgrade_note:"1.7.10!",
+            },
+            voxelmap:{version:null},
+            openeye:{
+                version:"0.6",
+                filename_pattern:"live-mods/OpenEye-0.6-1.7.10.jar",
+                upgrade_note:"1.7.10!",
+            },
+            witchery:{
+                version:"0.20.4",
+		"filename_pattern":"live-mods/witchery-1.7.10-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+            baubles:{
+                version:"1.0.1.4",
+                filename_pattern:"live-mods/Baubles-1.7.10-%s.jar",
+                desc:"Extra inventory slots for rings and things",
+                homepage:"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294623-baubles-1-0-1-3-updated-8-8-2014",
+                upgrade_note:"1.7.10!",
+            },
+            bibliocraft:{
+                version:"1.7.5",
+                filename_pattern:"live-mods/BiblioCraft[v%s][MC1.7.10].jar",
+                homepage:"http://www.bibliocraftmod.com/?page_id=48#MC1710",
+                upgrade_note:"1.7.10!",
+            },
+            bloodmagic:{
+                version:"1.1.0",
+                filename_pattern:"live-mods/Blood Magic-v%s(1.7.10).jar",
+                upgrade_note:"1.7.10!",
+            },
+            carpenters:{
+                "version":"3.2.6",
+                "filename_pattern":"live-mods/Carpenter's Blocks v%s - MC 1.7.10.zip",
+                "homepage":"https://mineshopper.github.io/carpentersblocks/downloads.html",
+                upgrade_note:"1.7.10!",
+            },
+	    "dynmap":{
+		"version":"2.0.0-alpha-1",
+		"filename_pattern":"live-mods/Dynmap-%s-forge-10.13.0.jar",
+                upgrade_note:"1.7.10!",
+	    },
+            "enhancedportals":{
+                "homepage":"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2178842-enhanced-portals-3",
+                "version":"3.0.5",
+                "filename_pattern":"live-mods/EnhancedPortals_1.7.10-universal-%s.jar",
+                upgrade_note:"1.7.10!",
+            },
+        },
+    },
+    28:{
+        normalish_mods:{
+            "codechickencore":{version:'1.0.2.9'},
+//            "enderstorage":   {version:'1.4.4.6',
+//                               filename_pattern:'live-mods/EnderStorage-1.7.10-%s-universal.jar'
+//                              },
+            "notenoughitems": {version:"1.0.2.15"},
+            "mystcraft":      {version:"0.10.15.08"},
+        },
+    },
+    29:{
+        normalish_mods:{
+            witchery:             {version:"0.20.5"},
+            tconstruct:           {version:"1.6.0d39"},
+            roguelike:            {version:"1.3.5"},
+            progressiveautomation:{
+                version:"1.4.3",
+                homepage:"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290238-roguelike-dungeons-v1-3-5",
+            },
+            ironchests:           {version:"6.0.49.733"},
+            hydraulicraft:        {version:"2.0-59"},
+            gendustry:            {version:"1.3.0.9"},
+            forestry:             {version:"3.0.0.90"},
+            extrautils:           {version:"1.1.0i"},
+            enderio:{
+                version:"2.0.0.191",
+                filename_pattern:"live-mods/EnderIO-1.7.10-%s.jar",
+            },
+            botania:{
+                version:"r1.1-100",
+                homepage:"http://vazkii.us/mod/Botania/changelog.php",
+            },
+            baubles:{
+                version:"1.0.1.5"
+            },
+            mechworks:{
+                notenoughmods_id: "Tinkers'Mechworks",
+            },
+            ae2:{
+                version:"rv1-beta-10",
+            },
+	    "thaumcraft":{
+                version:"4.2.0.0",
+                filename_pattern:"live-mods/Thaumcraft-1.7.10-%s.jar",
+            },
+        },
+    },
+    30:{
+        normalish_mods:{
+            botania:{version:"r1.2-102"},
+            //"thaumictinkerer":{
+	    //  "version":"2.5-1.7.10-153",
+            //  "homepage":"http://minecraft.curseforge.com/mc-mods/75598-thaumic-tinkerer",
+            //  nem_expected:"2.5-153",
+            //},
+            findercompass:{
+                "version":"",
+                "homepage":"http://atomicstryker.net/findercompass.php",
+                filename_pattern:"live-mods/FinderCompass-1.7.10.jar",
+            },
+        },
+    },
+    31:{
+        normalish_mods:{
+            botania:{
+                version:"r1.2-104",
+            },
+            enderio:{
+                version:"2.0.1.194",
+            },
+	    "mobiuscore":{
+		"version":"1.2.2a",
+		"filename_pattern":"live-mods/MobiusCore-%s_1.7.10.jar",
+	    },
+	    "opis":{
+		"version":"1.2.2a",
+		"filename_pattern":"live-mods/Opis-%s_1.7.10.jar",
+	    },
+            nei_addons:{
+                "version":"1.12.2.9",
+            },
+            neiplugins:{
+                "version":"1.1.0.7",
+                "homepage":"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294687-toniuss-mods-simply-jetpacks-nei-plugins",
+                "filename_pattern":"live-mods/NEIPlugins-MC1.7.10-%s-unofficial.jar",
+            },
+        },
+    },
+    32:{
+        normalish_mods:{
+            mystcraft:{version:"0.10.15.18"},
+        },
+    },
+    33:{
+        normalish_mods:{
+            baubles:{version:"1.0.1.7"},
+            waila:{version:"1.5.3a"},
+            thaumcraft:{version:"4.2.0.1"},
+            tconstruct:{version:"1.6.0d40.1"},
+        },
+    },
+    34:{
+        normalish_mods:{
+            opis:{version:"1.2.3"},
+            mobiuscore:{version:"1.2.3"},
+        }
+    },
+    35:{
+        normalish_mods:{
+            wailaharvestability:{version:"1.1.0"},
+            pneumaticcraft:{version:"1.2.6"},
+            neiplugins:{version:"1.1.0.8"},
+            mantle:{
+                version:"0.3.1",
+                filename_pattern:"live-mods/Mantle-mc1.7.10-%s.jar",
+            },
+            ironchests:{version:"6.0.54.737"},
+            gendustry:{version:"1.3.3.22"},
+            forgemultipart:{version:"1.1.0.306"},
+            forestry:{version:"3.0.0.119"},
+            extrautils:{version:"1.1.0k"},
+            enhancedportals:{version:"3.0.6"},
+            enderio:{version:"2.0.6.216"},
+            botania:{version:"r1.2-115"},
+            bdlib:{version:"1.4.4.19"},
+            aobd:{version:"2.2.4"},
+            ae2:{
+                nem_use_beta:true,
+                version:"rv1-beta-24",
+            },
+            
+            "binnie":{
+                "version":"2.0-dev4",
+                "filename_pattern":"live-mods/binnie-mods-%s.jar",
+                desc:"Extra trees, bees, flowers, butterflies and machines for forestry",
+                "homepage":"http://binnie.mods.wiki/",
+                notenoughmods_id: "binnie'smods",
+            },
+        },
+        forge: "10.13.0.1208",
+    },
+    36:{
+        normalish_mods:{
+            waila:{version:"1.5.4a"},
+            progressiveautomation:{version:"1.4.12"},
+        },
+    },
+    37:{
+        normalish_mods:{
+            twilightforest:{
+                version:"2.3.2",
+    	        "filename_pattern":"live-mods/twilightforest-1.7.10-%s.jar",
+            },
+            // Things You Never Knew You Needed?
+        },
+    },
+    38:{
+        forge: "10.13.2.1236",
+        normalish_mods:{
+            witchery:{
+                version:"0.20.6",
+            },
+            waila:{
+                version:"1.5.5",
+            },
+            thaumcraft:{
+                version:"4.2.1.4",
+            },
+            tconstruct:{
+                version:"1.7.1c",
+                homepage:"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2218638-tinkers-construct",
+                filename_pattern:"live-mods/TConstruct-1.7.10-%s.jar",
+            },
+            // extratic
+            // tic tooltips
+            pneumaticcraft:{
+                version:"1.3.2-32",
+                filename_pattern:"live-mods/PneumaticCraft-1.7.10-%s-universal.jar",
+            },
+            // in-game wiki
+            nei_addons:{
+                version:"1.12.3.11",
+            },
+            natura:{
+                version:"2.2.0.1"
+            },
+            mystcraft:{
+                version:"0.11.0.00",
+            },
+            mechworks:{
+                version:"0.2.8",
+            },
+            mantle:{
+                homepage:"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2218638-tinkers-construct",
+                version:"0.3.2",
+                filename_pattern:"live-mods/Mantle-1.7.10-%s.jar",
+            },
+            ironchests:{
+                version:"6.0.62.742",
+            },
+            hydraulicraft:{
+                version:"2.0.78",
+                filename_pattern:"live-mods/HydCraft-1.7.10-%s-universal.jar",
+            },
+            k4lib:{
+                version:"0.1.18",
+                filename_pattern:"live-mods/k4lib-1.7.10-%s-universal.jar",
+            },
+            gendustry:{
+                //version:"1.4.1.43",
+                // Seems to cause method-not-found during start.
+                version:null,
+            },
+            bdlib:{
+                //homepage:"http://jenkins.bdew.net/job/bdlib-1.7.10/",
+                //version:"1.5.1.32",
+                // Seems to cause method-not-found during start.
+                version:null,
+            },
+            forgemultipart:{
+                version:"1.1.0.314",
+            },
+            forestry:{
+                version:"3.1.1.4",
+            },
+            enhancedportals:{
+                version:"3.0.7",
+            },
+            binnie:{
+                version:"2.0-dev5",
+            },
+        }
+    },
+    39:{
+        normalish_mods:{
+            progressiveautomation:{
+                homepage:"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076388-progressive-automation-upgradeable-machines",
+                version:"1.5.2",
+            },
+            pneumaticcraft:{
+                version:"1.4.1-38",
+            },
+            ingamewiki:{
+                homepage:"http://www.curse.com/mc-mods/minecraft/223815-in-game-wiki-mod",
+                version:"1.1.1-17",
+                filename_pattern:"live-mods/IGW-Mod-1.7.10-%s-universal.jar",
+            },
+            versionchecker:{
+                homepage:"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2091981-version-checker-auto-update-mods-and-clean",
+                version:"1.1.7",
+                filename_pattern:"live-mods/VersionChecker-1.1.7.jar",
+            },
+            forestry:{
+                version:"3.2.0.5",
+            },
+	    "aobd":{
+                version:"2.3.4",
+            },
+        },
+    },
+    40:{
+        normalish_mods:{
+            progressiveautomation:{
+                version:"1.5.6",
+            },
+            carpenters:{
+                version:"3.3.3",
+                "filename_pattern":"live-mods/Carpenter's Blocks v%s - MC 1.7.10.jar",
+            },
+            gravestone:{
+                homepage:"http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288082-gravestone-mod-v2-10-2",
+                version:"2.10.2",
+                filename_pattern:"live-mods/GraveStone %s.jar",
+            },
+            botania:{
+                version:"r1.3-141",
+            },
+            bibliocraft:{
+                version:"1.9.0",
+            },
+        },
+        millenaire:{
+            homepage:"http://millenaire.org/",
+            version:"6.0.0",
+            filename_pattern:"live-mods/Millenaire%s.zip",
+        }
+    },
+            // extrabiomesxl?
+    // http://micdoodle8.com/mods/galacticraft/downloads -- v3 in beta for 1.7.x
+    // --- hackery mod --- not really suitable for a serious world.
+    // elevator
+    // terrific transportation
+    // biomesoplenty: do not want
+    // chickenchunks - no 1.7 version yet
+    // no CoFH yet
+    // no computercraft
+    // no cowboy hat
+    // no ender storage
+    // no forbidden magic
+    // no magic bees
+    // no mission control
+    // no mobiuscore
+    // no mystnei
+    // no neiplugins
+    // no nem version checker
+    // not enough keys: http://minecraft.curseforge.com/mc-mods/224614-notenoughkeys
+    // no redstonearesenal
+    // no steve's carts
+    // don't want thaumicalgae?
+    // no thermal expansion yet?
+    // no tsteel yet
+    // ender tanks?
+    // enhanced biomes?
+    // CrystalWing
+    // FloatingRuins
+    // GlensGasses
+    // Mariculture + Enchiridon
+    // (stopped looking here.)
+    // no dimensionaldoors yet
+    // thaumic exploration
+}
